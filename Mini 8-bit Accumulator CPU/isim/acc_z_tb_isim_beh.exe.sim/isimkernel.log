@@ -1,0 +1,10 @@
+Command line:
+   acc_z_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  6
+     -socket  43987
+
+Thu Oct 29 17:11:20 2026
+
+
+ Elaboration Time: 0.02 sec

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/CPU_Set2_22201162/program_counter.xst" -ofn "/home/ise/CPU_Set2_22201162/program_counter.syr" 
+xst -intstyle ise -ifn "/home/ise/CPU_Set2_22201162/program_counter.xst" -ofn "/home/ise/CPU_Set2_22201162/program_counter.syr" 

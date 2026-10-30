@@ -1,0 +1,25 @@
+ISim log file
+Running: /home/ise/CPU_Set2_22201162/cpu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_Set2_22201162/cpu_tb_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim7.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/UUT/U_ROM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 16 ns: Note: Cycle 1 OK: ACC=85 Z='0' nextPC=1 (/cpu_tb/).
+at 26 ns: Note: Cycle 2 OK: ACC=170 Z='0' nextPC=2 (/cpu_tb/).
+at 36 ns: Note: Cycle 3 OK: ACC=85 Z='0' nextPC=3 (/cpu_tb/).
+at 46 ns: Note: Cycle 4 OK: ACC=170 Z='0' nextPC=4 (/cpu_tb/).
+at 56 ns: Note: Cycle 5 OK: ACC=0 Z='1' nextPC=5 (/cpu_tb/).
+at 66 ns: Note: Cycle 6 OK: ACC=129 Z='0' nextPC=6 (/cpu_tb/).
+at 76 ns: Note: Cycle 7 OK: ACC=2 Z='0' nextPC=7 (/cpu_tb/).
+at 76 ns: Note: *** ALL CYCLES PASSED - Set 2 program verified *** (/cpu_tb/).
